@@ -69,17 +69,18 @@ body {
         }
 
         // FEM Community: I need help getting the paragraphs to transition in and out
-        // p {
-        //   // height: 0;
-        //   visibility: hidden;
-        //   // transition: opacity 0.9s ease;
-        //   transition: visibility 0.9s ease;
+        p {
+          color: $grayish-purple;
+          //   // height: 0;
+          //   visibility: hidden;
+          //   // transition: opacity 0.9s ease;
+          //   transition: visibility 0.9s ease;
 
-        //   &.show {
-        //     // height: auto;
-        //     visibility: visible;
-        //   }
-        // }
+          //   &.show {
+          //     // height: auto;
+          //     visibility: visible;
+          //   }
+        }
       }
     }
   }
