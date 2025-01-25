@@ -7,6 +7,8 @@ import { mainEvents } from "./events/main";
 (() => {
   $("header").html(header);
   $("main").html(mainContent);
-  $("footer").html(footer("test"));
+  $("footer").html(
+    footer("https://github.com/LincolnBollschweiler/frontendMentorFaqAccordion")
+  );
   mainEvents();
 })();
