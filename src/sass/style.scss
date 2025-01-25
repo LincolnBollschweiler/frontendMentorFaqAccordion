@@ -1,0 +1,94 @@
+@forward "andyBell";
+
+$white: hsl(0, 0%, 100%);
+$light-pink: hsl(275, 100%, 97%);
+$grayish-purple: hsl(292, 16%, 49%);
+$dark-purple: hsl(292, 42%, 14%);
+$magenta: hsl(281, 91%, 55%);
+
+// Weights: 400, 600, 700
+body {
+  background-image: url("../images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 320px;
+  background-color: $light-pink;
+  font-family: "Work Sans", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+
+  .flex {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .main-content {
+    flex-direction: column;
+    padding: 2.4rem;
+    border-radius: 1rem;
+    gap: 1.5rem;
+    background: $white;
+    max-width: min(calc(100vw - 2rem), 500px);
+    margin: 1rem auto 0;
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+
+    ul {
+      li {
+        button {
+          text-align: left;
+          padding: 0;
+          background: none;
+          border: none;
+          font-weight: 600;
+          margin: 0.8rem 0;
+          font-size: 0.9em;
+          cursor: pointer;
+
+          .button-text {
+            justify-content: space-between;
+            align-items: center;
+
+            &:hover {
+              color: $magenta;
+            }
+          }
+        }
+
+        // FEM Community: I need help getting the paragraphs to transition in and out
+        // p {
+        //   // height: 0;
+        //   visibility: hidden;
+        //   // transition: opacity 0.9s ease;
+        //   transition: visibility 0.9s ease;
+
+        //   &.show {
+        //     // height: auto;
+        //     visibility: visible;
+        //   }
+        // }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+
+  *:focus-visible {
+    outline: 2px dashed lightblue;
+    outline-offset: 3px;
+  }
+}
