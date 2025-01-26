@@ -5,7 +5,7 @@ export const mainContent = `
             <span>FAQs</span>
         </h1>
         <ul class="faq-list" role="list" aria-label="Frequently Asked Questions">
-            <li tabindex="0">
+            <li>
                 <button aria-expanded="false" aria-controls="faq1">
                     <div class="button-text flex">
                         What is Frontend Mentor, and how will it help me?
@@ -16,8 +16,8 @@ export const mainContent = `
                     Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.
                 </p>
             </li>
-            <li tabindex="0">
-                <button aria-expanded="false" aria-controls="faq2" aria-label="Toggle FAQ">
+            <li>
+                <button aria-expanded="false" aria-controls="faq2">
                     <div class="button-text flex">
                         Is Frontend Mentor free?
                         <img src="images/icon-plus.svg" alt="arrow down" />
@@ -27,8 +27,8 @@ export const mainContent = `
                     Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.
                 </p>
             </li>
-            <li tabindex="0">
-                <button aria-expanded="false" aria-controls="faq3" aria-label="Toggle FAQ">
+            <li>
+                <button aria-expanded="false" aria-controls="faq3">
                     <div class="button-text flex">
                         Can I use Frontend Mentor projects in my portfolio?
                         <img src="images/icon-plus.svg" alt="arrow down" />
@@ -38,8 +38,8 @@ export const mainContent = `
                     Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!
                 </p>
             </li>
-            <li tabindex="0">
-                <button aria-expanded="false" aria-controls="faq4" aria-label="Toggle FAQ">
+            <li>
+                <button aria-expanded="false" aria-controls="faq4">
                     <div class="button-text flex">
                         How can I get help if I'm stuck on a challenge?
                         <img src="images/icon-plus.svg" alt="arrow down" />
