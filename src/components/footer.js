@@ -6,16 +6,12 @@ export const footer = (repoUrl) => {
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
         rel="noopener noreferrer"
-    >
-        Frontend Mentor
-    </a>. Coded by
+    >Frontend Mentor</a>. Coded by
     <a
         href="${repoUrl}"
             target="_blank"
         rel="noopener noreferrer"
-    >
-        Lincoln Bollschweiler
-    </a>.
+    >Lincoln Bollschweiler</a>.
     </div>
   `;
 };
